@@ -325,9 +325,6 @@ All results are in the `results/` directory:
 | W:A ratio | NA (no W chromosome labelled) |
 | **Dosage interpretation** | **ZZ‑like** |
 
-![Normalized coverage ratios table](results/chromosome_relative_depth.csv)
-Table 1. Chromosome relative depth and coverage ratios.
-
 ### Summary Text (`sex_inference.txt`)
 Median autosome depth: 19.281
 Z / A ratio: 1.212
@@ -335,21 +332,18 @@ W / A ratio: NA
 Dosage interpretation: ZZ-like
 Compare with BioSample sex and discuss limitations.
 
-![Dosage inference summary](results/sex_inference.txt)
-Text box 1. Final sex-chromosome dosage inference.
-
 ### Visualization Description
 **Figure: Autosomal and sex‑chromosome depth**
+
+![Autosomal and sex-chromosome depth](results/chromosome_depth.png)
+**Figure 1.** Bar plot showing each chromosome's depth normalized to median autosome; dashed lines at 0.5 and 1.0.
+
 - Bar plot shows coverage normalized to the median autosome depth (dashed reference lines at 0.5 and 1.0)
 - Autosomal chromosomes range from approximately **0.72 to 1.09** relative depth
 - The Z chromosome bar is the highest at **1.21**, consistent with two copies
 - **No chromosome shows depth near 0.5** — the expected range for a single‑copy Z in a ZW female individual
 - No W chromosome coverage was detected in this dataset
-**chromosome_depth.png**
-> Bar plot showing each chromosome's depth normalized to median autosome; dashed lines at 0.5 and 1.0
 
-![Relative depth bar plot](results/chromosome_depth.png)
-Figure 1. Autosomal and sex-chromosome depth relative to median autosome.
 
 ## 8. Answers to the Six Questions
 
